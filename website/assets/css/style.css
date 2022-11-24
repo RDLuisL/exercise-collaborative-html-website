@@ -1,8 +1,26 @@
 body{
-    background: #BDBDBD;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1073%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1074)'%3e%3c/rect%3e%3cpath d='M325.74 597.04C457.22 567.24 503.26 224.65 710.31 218.99 917.37 213.33 902.6 288.99 1094.89 288.99 1287.17 288.99 1381.74 219.27 1479.46 218.99' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M473.12 671.33C615.94 609.99 553.08 165.65 831.3 163.12 1109.52 160.59 1360.44 379.11 1547.65 381.52' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M325.55 568.04C475.79 540.22 539.2 167.53 782.59 162.27 1025.98 157.01 1011.1 232.27 1239.62 232.27 1468.14 232.27 1581.07 162.47 1696.66 162.27' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M197.58 586.18C334.95 566.81 406.11 247.97 635.14 244.88 864.17 241.79 853.92 314.88 1072.7 314.88 1291.48 314.88 1399.48 245.1 1510.26 244.88' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M642.32 570.42C748.51 544.28 715.07 257.68 947.56 257.06 1180.05 256.44 1400.81 407.14 1558.04 408.26' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1073'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1074'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0.52'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+ 
 }
 
 
+.heading_1 {
+    margin-top: 750px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    
+}
+
+.text-heading-1 {
+    width: 700px;
+    padding-right: 50px;
+    color: white;
+}
 
 .taglinetitle1 {
     margin: 50px 0px 0px 50px;
@@ -21,4 +39,59 @@ body{
     width: 1200px;
     opacity: 80%;
     gap: 10px;
+}
+
+.services {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-services {
+    color: white;
+    padding-left: 50px;
+    width: 700px;
+}
+
+.portfolio-container {
+    color: white;
+    margin-top: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.portfolio-text {
+    color: white;
+    width: 1200px;
+    
+
+}
+
+.portfolio-cards {
+    border-radius: 30px;
+    color:black;
+}
+
+.contact-text {
+    color: white;
+    width: 1200px;
+}
+
+.contact-container {
+    margin-top: 50px;
+   
+}
+
+.your-message-area {
+    width: 900px;
+}
+
+form {
+    color: white;
+}
+
+.portfolio-container-center {
+    display: flex;
+    justify-content: center;
 }
